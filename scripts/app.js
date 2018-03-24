@@ -21,7 +21,12 @@ $(document).ready(function() {
 				var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
 				var marker = new google.maps.Marker({
 			          position: {lat: mapLat, lng: mapLng},
-					  
+			          icon: {
+			          	url: "images/earthquake.png", // url
+					    scaledSize: new google.maps.Size(25, 25), // scaled size
+					    origin: new google.maps.Point(0,0), // origin
+					    anchor: new google.maps.Point(0, 0) // anchor
+			          },
 			          map: map
 			        });
 				
