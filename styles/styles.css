@@ -6,3 +6,11 @@
   height: 600px;
   margin-top: 20px;
 }
+
+#info {
+	display: block;
+}
+
+#info p {
+	display: inline;
+}
